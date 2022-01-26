@@ -1,0 +1,135 @@
+/*======================== 
+table content starts
+======================== */
+
+/* 
+    1. Template Name : portfolio 1.0;
+    2. Author : Nayem hossain. Web Developer;
+    3. version : 1.0;
+*/
+
+/*==========================
+ table information ends
+=========================== */
+
+/* 
+        1. google font link css;
+        2. variable css;
+        3. common css;
+        4. font-familly css;
+        5. font-size css;
+        6. typography css;
+
+*/
+/*==========================
+ table css list ends
+=========================== */
+
+/*======================== 
+table content ends
+======================== */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=The+Nautigal:wght@400;700&display=swap');
+/*============================
+google font link css ends
+=========================== */
+:root{
+    --mff: 'Oswald', sans-serif;
+    --sff: 'The Nautigal', cursive;
+    --brand: #5144EB;
+    --sbrand: #CA38E2;
+    --bg1: #212529;
+    --bg2: #ddd;
+    --overlay: rgba(0, 0, 0,.6);
+    --bgoverlay: rgba(0, 0, 0,.8);
+}
+/*======================== 
+variable css ends
+======================== */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+/*======================== 
+common css ends
+======================== */
+.osw-reg{
+    font-family: var(--mff);
+    font-weight: 400;
+}
+.osw-med{
+    font-family: var(--mff);
+    font-weight: 500;
+}
+.osw-semi{
+    font-family: var(--mff);
+    font-weight: 600;
+}
+.osw-bold{
+    font-family: var(--mff);
+    font-weight: 700;
+}
+.nau-reg{
+    font-family: var(--sff);
+    font-weight: 400;
+}
+.nau-bold{
+    font-family: var(--sff);
+    font-weight: 700;
+}
+/*======================== 
+font-familly css ends
+======================== */
+.fs-14{
+    font-size: 1.4rem;
+}
+.fs-16{
+    font-size: 1.6rem;
+}
+.fs-18{
+    font-size: 1.8rem;
+}
+.fs-20{
+    font-size: 2rem;
+}
+.fs-24{
+    font-size: 2.4rem;
+}
+.fs-32{
+    font-size: 3.2rem;
+}
+.fs-40{
+    font-size: 4rem;
+}
+.fs-48{
+    font-size: 4.8rem;
+}
+/*======================== 
+font-size css ends
+======================== */
+.text-cap{
+    text-transform: capitalize;
+}
+.text-up{
+    text-transform: uppercase;
+}
+.text-low{
+    text-transform: lowercase;
+}
+/*======================== 
+ typography css ends
+======================== */

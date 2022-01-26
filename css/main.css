@@ -1,0 +1,380 @@
+/*======================== 
+    table content starts
+======================== */
+
+/* 
+    1. Template Name : portfolio 1.0;
+    2. Author : Nayem hossain. Web Developer;
+    3. version : 1.0;
+*/
+
+/*==========================
+    table information ends
+=========================== */
+
+/* 
+        css/all-common-css/typography.css{
+            1. google font link css;
+            2. variable css;
+            3. common css;
+            4. font-familly css;
+            5. font-size css;
+            6. typography css;
+        };
+
+        css/all-common-css/navfootercommon.css{
+            1. navbar css;
+            2. navbar-fixed css;
+            3. section common-header css;
+            4. footer css;
+        };
+
+        css/all-common-css/othercommon.css{
+            1. back-top button css;
+            2. preloder css;
+            3. color selection css;
+            4. color change css;
+            5. date-time css;
+        };
+        
+        this page css list{
+            1. banner css;
+            2. about css;
+            3. contact css;
+            4. why-best css;
+        };
+
+*/
+
+/*==========================
+    table css list ends
+=========================== */
+
+/*======================== 
+    table content ends
+======================== */
+
+/*======================== 
+home page css starts
+======================== */
+#banner{
+    background: url('../images/banner.jpg') no-repeat , center / cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#banner::after{
+    content: '';
+    width: 100%;
+    background: var(--bgoverlay);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+#banner .banner-text{
+    padding: 60rem 0 40rem 1rem;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.6);
+}
+#banner .banner-text h3{
+    color: var(--brand);
+}
+#banner .banner-text h3 b{
+    color: var(--sbrand);
+}
+#banner .banner-text p{
+    color: var(--brand);
+}
+#banner .banner-text h4{
+    color: var(--sbrand);
+}
+#banner .banner-text h4 span{
+    letter-spacing: .2rem;
+}
+/*======================== 
+banner css ends
+======================== */
+#about{
+    background: url(../images/aboutbg.jpg) no-repeat, center / cover;
+    position: relative;
+    z-index: 1;
+    padding: 6rem 0;
+}
+#about::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--overlay);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+#about .about-header{
+    margin-bottom: 6rem;
+}
+#about .about-image img{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+}
+#about .about-image .about-img-overlay{
+    background: rgba(0, 0, 0,.3);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#about .about-text{
+    padding: 2rem 3rem;
+    box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+    border-radius: 1rem;
+}
+#about .about-text h3{
+    color: var(--sbrand);
+}
+#about .about-text h4{
+    color: #ddd;
+}
+#about .about-text .ratings i{
+    color: #e23e38;
+}
+#about .about-text .about-details p{
+    color: #ddd;
+    line-height: 2.6rem;
+}
+#about .about-text a{
+    background: var(--brand);
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    display: inline-block;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#about .about-text a:hover{
+    background: var(--sbrand);
+}
+/*======================== 
+about css ends
+======================== */
+#contact{
+    background: #353535;
+    position: relative;
+    z-index: 1;
+    padding: 6rem 0;
+}
+#contact::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--overlay);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+#contact .contact-header{
+    margin-bottom: 6rem;
+}
+#contact .massage-form{
+    background: #353535;
+    box-shadow:0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+    padding: 0 3rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#contact .massage-form form{
+    padding: 3rem 0;
+}
+#contact .massage-form form div{
+    padding-bottom: 1rem;
+}
+#contact .massage-form form div label{
+    color: var(--brand);
+    padding-bottom: .5rem;
+}
+#contact .massage-form form div input{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border-color: var(--brand);
+}
+#contact .massage-form form div input:focus,
+#contact .massage-form form div textarea:focus{
+    border-color: red;
+}
+#contact .massage-form form div textarea{
+    resize: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border-color: var(--brand);
+}
+#contact .massage-form form .form-btn button{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: #ddd;
+    background: var(--brand);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    box-shadow:0px 0px 5px 5px rgba(82, 68, 235, 0.8);
+    display: inline-block;
+    padding: .5rem 5rem;
+    outline: none;
+    border: none;
+}
+#contact .massage-form form .form-btn button:hover{
+    background: var(--sbrand);
+    box-shadow:0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+}
+#contact .location{
+    background: #212529;
+    box-shadow:0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#contact .location iframe{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    width: 100%;
+    height: 44rem;
+}
+/*======================== 
+contact css ends
+======================== */
+#why-best{
+    background: #353535;
+    position: relative;
+    padding: 6rem 0;
+}
+#why-best .why-best-header{
+    margin-bottom: 6rem;
+}
+#why-best .web-design-why-best{
+    margin-bottom: 6rem;
+}
+#why-best .common-why-best-images{
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#why-best .common-why-best-images img{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#why-best .common-why-best-images:hover img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#why-best .common-why-best-images .dsi-overlay{
+    background: rgba(0, 0, 0,.4);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#why-best .common-why-best-text{
+    padding: 1.2rem 5rem;
+    box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+    border-radius: 1rem;
+}
+#why-best .common-why-best-text h3{
+    color: var(--brand);
+    cursor: pointer;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#why-best .common-why-best-text h3:hover{
+    color: var(--sbrand);
+}
+#why-best .common-why-best-text p{
+    line-height: 2.6rem;
+    color: #ddd;
+}
+#why-best .why-best-point ol{
+    padding: .5rem 1rem !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+    margin: 1.1rem 0;
+}
+#why-best .why-best-point ol li h5{
+    padding-bottom: 1rem;
+    color: #ddd;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    cursor: pointer;
+}
+#why-best .why-best-point ol li:hover h5{
+    color: var(--sbrand);
+}
+#why-best .why-best-point ol li h5 span{
+    margin-right: 1rem;
+}
+#why-best .why-best-point ol li span{
+    color: var(--sbrand);
+}
+#why-best .why-best-point ol li p{
+    line-height: 2.6rem;
+}
+/*======================== 
+why-best css ends
+======================== */
+
+/*======================== 
+home page css ends
+======================== */

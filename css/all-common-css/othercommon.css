@@ -1,0 +1,482 @@
+/*======================== 
+table content starts
+======================== */
+
+/* 
+    1. Template Name : portfolio 1.0;
+    2. Author : Nayem hossain. Web Developer;
+    3. version : 1.0;
+*/
+
+/*==========================
+ table information ends
+=========================== */
+
+/*
+
+        1. back-top button css;
+        2. preloder css;
+        3. color selection css;
+        4. color change css;
+        5. date-time css;
+
+*/
+/*==========================
+ table css list ends
+=========================== */
+
+/*======================== 
+table content ends
+======================== */
+
+.back-top-btn{
+    position: fixed;
+    top: 94vh;
+    right: 1rem;
+    z-index: 99999;
+    cursor: pointer;
+    animation: bc-tp-animate linear 5s;
+    -webkit-animation: bc-tp-animate linear 5s;
+    display: none;
+}
+@keyframes bc-tp-animate{
+    0%{
+        top: 0vh;
+    }
+    100%{
+        top: 94vh;
+    }
+}
+.back-top-btn i{
+    background: var(--brand);
+    color: var(--sbrand);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+/*======================== 
+back-top button css ends
+======================== */
+.preloder-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+    background: #212529;
+    z-index: 9999999999999999999999;
+}
+.preloder-box span{
+    width: 10rem;
+    height: 10rem;
+    border: 1rem solid var(--brand);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: preloder linear 1.2s infinite;
+    -webkit-animation: preloder linear 1s infinite;
+}
+@keyframes preloder{
+    0%{
+        border-color: var(--brand);
+        border-top-color: transparent;
+    }
+    25%{
+        border-color: violet;
+        border-top-color: transparent;
+    }
+    50%{
+        border-color: yellow;
+        border-top-color: transparent;
+    }
+    75%{
+        border-color: green;
+        border-top-color: transparent;
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-color: var(--sbrand);
+        border-top-color: transparent;
+    }
+}
+/*======================== 
+preloder css ends
+======================== */
+.color-selection{
+    width: 20rem;
+    height: 5rem;
+    background: #dddd;
+    position: fixed;
+    top: 40%;
+    right: -20.5rem;
+    z-index: 99999999;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+}
+.color-pos{
+    right: 0;
+}
+.color-selection .color-btn{
+    width: 4rem;
+    height: 4rem;
+    background: var(--sbrand);
+    position: absolute;
+    top: .7rem;
+    left: -5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.color-selection .color-btn i{
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.color-selection ul li{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.color-selection ul li.defult{
+    background: var(--sbrand);
+}
+.color-selection ul li.red{
+    background: #e23e38;
+}
+.color-selection ul li.orange{
+    background: #F79F1F;
+}
+.color-selection ul li.green{
+    background: #009432;
+}
+.color-selection ul li.blue {
+    background: #0652DD;
+}
+/*======================== 
+color selection css ends
+======================== */
+
+/* red color starts */
+.red #banner .banner-overlay .banner-text h3 b,
+.red #banner .banner-overlay .banner-text h4,
+.red .common-header i,
+.red .common-header h2,
+.red #about .about-text h3,
+.red #our-team .team-member .member-text h4,
+.red #price .price-item .price .price-overlay h5,
+.red #feedback .feedback-slider .feedback-item .feedback-p-detail h5,
+.red #why-best .why-best-point ol li span,
+.red #footer .footer-copy .copyright p a b,
+.red #projects .projects-item .projects-img .projects-img-overlay a i,
+.red #footer .footer-main .footer-item .footer-contact .f-contact .footer-contact-icn a i,
+.red #about .about-text .ratings i,
+.red #feedback .feedback-slider .feedback-item .feedback-p-detail h5,
+.red #feedback .feedback-slider .feedback-item .feedback-p-detail .rating i{
+    color: #e23e38;
+}
+.red #footer .footer-main .footer-item .footer-contact .f-contact .footer-contact-icn a i:hover{
+    color: var(--sbrand);
+}
+.red .back-top-btn i{
+    color: #fff;
+}
+.red #about .about-text a,
+.red #our-team .team-member .team-member-img .member-img-overlay .overlay-icon a i,
+.red #footer .footer-main .footer-item .footer-social a i,
+.red .back-top-btn i,
+.red .color-selection .color-btn,
+.red #price .price-item .price-header h4,
+.red #price .price-item .price-btn a,
+.red #feedback .slick-dots .slick-active,
+.red #contact .massage-form form .form-btn button{
+    background: #e23e38;
+}
+.red #feedback .slick-dots .slick-active{
+    border-color: #e23e38;
+}
+.red #price .price-item:hover .price-header h4,
+.red #price .price-item:hover .price-btn a,
+.red #our-team .team-member .team-member-img .member-img-overlay .overlay-icon a i:hover,
+.red #footer .footer-main .footer-item .footer-social a i:hover,
+.red #about .about-text a:hover,
+.red #contact .massage-form form .form-btn button:hover{
+	background: var(--sbrand);
+}
+.red .common-header,
+.red #projects .projects-item,
+.red #contact .massage-form,
+.red #contact .location,
+.red #footer .footer-main .footer-logo,
+.red #footer .footer-main .footer-item .footer-social a i,
+.red #footer .footer-copy .copyright p,
+.red #footer .footer-main .footer-item,
+.red #skills .skill-cmn-box,
+.red #services .common-service .s-cmn-card h3,
+.red #services .common-service,
+.red #our-team .team-member,
+.red #price .price-item,
+.red #our-team .team-member .member-text,
+.red #why-best .common-why-best-images,
+.red #why-best .common-why-best-text,
+.red #why-best .why-best-point ol,
+.red #about .about-image img,
+.red #about .about-text{
+    box-shadow: 0px 0px 5px 5px rgba(226, 62, 56, 0.8);
+}
+/* red color ends */
+
+/* orange color starts */
+.orange #banner .banner-overlay .banner-text h3 b,
+.orange #banner .banner-overlay .banner-text h4,
+.orange .common-header i,
+.orange .common-header h2,
+.orange #about .about-text h3,
+.orange #our-team .team-member .member-text h4,
+.orange #price .price-item .price .price-overlay h5,
+.orange #feedback .feedback-slider .feedback-item .feedback-p-detail h5,
+.orange #why-best .why-best-point ol li span,
+.orange #footer .footer-copy .copyright p a b,
+.orange #projects .projects-item .projects-img .projects-img-overlay a i,
+.orange #footer .footer-main .footer-item .footer-contact .f-contact .footer-contact-icn a i,
+.orange #about .about-text .ratings i,
+.orange #feedback .feedback-slider .feedback-item .feedback-p-detail h5,
+.orange #feedback .feedback-slider .feedback-item .feedback-p-detail .rating i{
+    color: #F79F1F;
+}
+.orange #footer .footer-main .footer-item .footer-contact .f-contact .footer-contact-icn a i:hover{
+    color: var(--sbrand);
+}
+.orange .back-top-btn i{
+    color: #fff;
+}
+.orange #about .about-text a,
+.orange #our-team .team-member .team-member-img .member-img-overlay .overlay-icon a i,
+.orange #footer .footer-main .footer-item .footer-social a i,
+.orange .back-top-btn i,
+.orange .color-selection .color-btn,
+.orange #price .price-item .price-header h4,
+.orange #price .price-item .price-btn a,
+.orange #feedback .slick-dots .slick-active,
+.orange #contact .massage-form form .form-btn button{
+    background: #F79F1F;
+}
+.orange #feedback .slick-dots .slick-active{
+    border-color: #F79F1F;
+}
+.orange #price .price-item:hover .price-header h4,
+.orange #price .price-item:hover .price-btn a,
+.orange #our-team .team-member .team-member-img .member-img-overlay .overlay-icon a i:hover,
+.orange #footer .footer-main .footer-item .footer-social a i:hover,
+.orange #about .about-text a:hover,
+.orange #contact .massage-form form .form-btn button:hover{
+	background: var(--sbrand);
+}
+.orange .common-header,
+.orange #projects .projects-item,
+.orange #contact .massage-form,
+.orange #contact .location,
+.orange #footer .footer-main .footer-logo,
+.orange #footer .footer-main .footer-item .footer-social a i,
+.orange #footer .footer-copy .copyright p,
+.orange #footer .footer-main .footer-item,
+.orange #skills .skill-cmn-box,
+.orange #services .common-service .s-cmn-card h3,
+.orange #services .common-service,
+.orange #our-team .team-member,
+.orange #price .price-item,
+.orange #our-team .team-member .member-text,
+.orange #why-best .common-why-best-images,
+.orange #why-best .common-why-best-text,
+.orange #why-best .why-best-point ol,
+.orange #about .about-image img,
+.orange #about .about-text{
+    box-shadow: 0px 0px 5px 5px rgba(247, 161, 31, 0.8);
+}
+/* orange color ends */
+
+/* green color starts */
+.green #banner .banner-overlay .banner-text h3 b,
+.green #banner .banner-overlay .banner-text h4,
+.green .common-header i,
+.green .common-header h2,
+.green #about .about-text h3,
+.green #our-team .team-member .member-text h4,
+.green #price .price-item .price .price-overlay h5,
+.green #feedback .feedback-slider .feedback-item .feedback-p-detail h5,
+.green #why-best .why-best-point ol li span,
+.green #footer .footer-copy .copyright p a b,
+.green #projects .projects-item .projects-img .projects-img-overlay a i,
+.green #footer .footer-main .footer-item .footer-contact .f-contact .footer-contact-icn a i,
+.green #about .about-text .ratings i,
+.green #feedback .feedback-slider .feedback-item .feedback-p-detail h5,
+.green #feedback .feedback-slider .feedback-item .feedback-p-detail .rating i{
+    color: #009432;
+}
+.green #footer .footer-main .footer-item .footer-contact .f-contact .footer-contact-icn a i:hover{
+    color: var(--sbrand);
+}
+.green .back-top-btn i{
+    color: #fff;
+}
+.green #about .about-text a,
+.green #our-team .team-member .team-member-img .member-img-overlay .overlay-icon a i,
+.green #footer .footer-main .footer-item .footer-social a i,
+.green .back-top-btn i,
+.green .color-selection .color-btn,
+.green #price .price-item .price-header h4,
+.green #price .price-item .price-btn a,
+.green #feedback .slick-dots .slick-active,
+.green #contact .massage-form form .form-btn button{
+    background: #009432;
+}
+.green #feedback .slick-dots .slick-active{
+    border-color: #009432
+    ;
+}
+.green #price .price-item:hover .price-header h4,
+.green #price .price-item:hover .price-btn a,
+.green #our-team .team-member .team-member-img .member-img-overlay .overlay-icon a i:hover,
+.green #footer .footer-main .footer-item .footer-social a i:hover,
+.green #about .about-text a:hover,
+.green #contact .massage-form form .form-btn button:hover{
+	background: var(--sbrand);
+}
+.green .common-header,
+.green #projects .projects-item,
+.green #contact .massage-form,
+.green #contact .location,
+.green #footer .footer-main .footer-logo,
+.green #footer .footer-main .footer-item .footer-social a i,
+.green #footer .footer-copy .copyright p,
+.green #footer .footer-main .footer-item,
+.green #skills .skill-cmn-box,
+.green #services .common-service .s-cmn-card h3,
+.green #services .common-service,
+.green #our-team .team-member,
+.green #price .price-item,
+.green #our-team .team-member .member-text,
+.green #why-best .common-why-best-images,
+.green #why-best .common-why-best-text,
+.green #why-best .why-best-point ol,
+.green #about .about-image img,
+.green #about .about-text{
+    box-shadow: 0px 0px 5px 5px rgba(0, 148, 49, 0.8);
+}
+/* green color ends */
+
+/* blue color starts */
+.blue #banner .banner-overlay .banner-text h3 b,
+.blue #banner .banner-overlay .banner-text h4,
+.blue .common-header i,
+.blue .common-header h2,
+.blue #about .about-text h3,
+.blue #our-team .team-member .member-text h4,
+.blue #price .price-item .price .price-overlay h5,
+.blue #feedback .feedback-slider .feedback-item .feedback-p-detail h5,
+.blue #why-best .why-best-point ol li span,
+.blue #footer .footer-copy .copyright p a b,
+.blue #projects .projects-item .projects-img .projects-img-overlay a i,
+.blue #feedback .feedback-slider .feedback-item .feedback-p-detail h5,
+.blue #feedback .feedback-slider .feedback-item .feedback-p-detail .rating i,
+.blue #about .about-text .ratings i,
+.blue #footer .footer-main .footer-item .footer-contact .f-contact .footer-contact-icn a i{
+    color: #0652DD;
+}
+.blue #footer .footer-main .footer-item .footer-contact .f-contact .footer-contact-icn a i:hover{
+    color: var(--sbrand);
+}
+.blue .back-top-btn i{
+    color: #fff;
+}
+.blue #about .about-text a,
+.blue #our-team .team-member .team-member-img .member-img-overlay .overlay-icon a i,
+.blue #footer .footer-main .footer-item .footer-social a i,
+.blue .back-top-btn i,
+.blue .color-selection .color-btn,
+.blue #price .price-item .price-header h4,
+.blue #price .price-item .price-btn a,
+.blue #feedback .slick-dots .slick-active,
+.blue #contact .massage-form form .form-btn button{
+    background: #0652DD;
+}
+.blue #feedback .slick-dots .slick-active{
+    border-color: #0652DD;
+}
+.blue #price .price-item:hover .price-header h4,
+.blue #price .price-item:hover .price-btn a,
+.blue #our-team .team-member .team-member-img .member-img-overlay .overlay-icon a i:hover,
+.blue #footer .footer-main .footer-item .footer-social a i:hover,
+.blue #about .about-text a:hover,
+.blue #contact .massage-form form .form-btn button:hover{
+	background: var(--sbrand);
+}
+.blue .common-header,
+.blue #projects .projects-item,
+.blue #contact .massage-form,
+.blue #contact .location,
+.blue #footer .footer-main .footer-logo,
+.blue #footer .footer-main .footer-item .footer-social a i,
+.blue #footer .footer-copy .copyright p,
+.blue #footer .footer-main .footer-item,
+.blue #skills .skill-cmn-box,
+.blue #services .common-service .s-cmn-card h3,
+.blue #services .common-service,
+.blue #our-team .team-member,
+.blue #price .price-item,
+.blue #our-team .team-member .member-text,
+.blue #why-best .common-why-best-images,
+.blue #why-best .common-why-best-text,
+.blue #why-best .why-best-point ol,
+.blue #about .about-image img,
+.blue #about .about-text{
+    box-shadow: 0px 0px 5px 5px rgba(6, 81, 221, 0.8);
+}
+/* blue color ends */
+
+/*======================== 
+color change css ends
+======================== */
+.date-time{
+    position: fixed;
+    top: 36%;
+    right: 0;
+    z-index: 9999999999999999999999999; 
+}
+.date-time .text{
+    color: transparent;
+    -webkit-text-stroke: 1px #F79F1F;
+    font-size: 2rem;
+}
+/*======================== 
+date-time css ends
+======================== */

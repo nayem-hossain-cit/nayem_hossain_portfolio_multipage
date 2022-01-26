@@ -1,0 +1,645 @@
+/* table content responsive css list starts */
+    /* 
+        1. extra small device;
+        2. small device;
+        3. medium device;
+        4. large device;
+        5. extra large device;
+    */
+/* table content responsive css list ends */
+
+/*===========================
+ extra small device starts
+============================== */
+@media(max-width: 575px){
+
+    /* html css starts */
+    html{
+        font-size: 40%;
+    }
+    /* html css ends */
+
+    /* section common-header css starts */
+    .common-header h2{
+        text-align: center;
+    }
+    /* section common-header css ends */
+
+    /* navbar css starts */
+    .navbar{
+        background: #4abaee;
+    }
+    .navbar-toggler{
+        border: 1px solid var(--sbrand);
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+    }
+    .navbar-toggler-icon{
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        color: var(--sbrand);
+        font-size: 3rem;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0px 0px 0px .25rem var(--sbrand);
+    }
+    .navbar ul{
+        padding: 3rem 0;
+        text-align: center;
+    }
+    .navbar ul li{
+        margin-bottom: 2rem;
+    }
+    /* navbar css ends */
+
+    /* about css starts */
+    #about .about-text{
+        margin-bottom: 6rem;
+    }
+    /* about css ends */
+
+    /* skills css starts */
+    #skills{
+        background: #dddd;
+    }
+    #skills .skill-cmn-box{
+        margin-bottom: 6rem;
+        padding: 3rem;
+    }
+    #skills .skill-cmn-img img{
+        box-shadow: 0px 0px 5px 5px var(--sbrand);
+    }
+    #skills .skill-cmn-text{
+        margin-top: 3rem;
+        margin-left: 0;
+        padding: 3rem 0;
+        text-align: center;
+        box-shadow: 0px 0px 5px 5px var(--sbrand);
+        border-radius: 1rem;
+    }
+    /* skills css ends */
+
+    /* services css starts */
+    #services .common-service{
+        margin-bottom: 6rem;
+    }
+    /* services css ends */
+
+    /* our team css starts */
+    #our-team{
+        padding: 6rem 0 0;
+    }
+    #our-team .team-member{
+        margin: 0 1.5rem 6rem;
+    }
+    /* our team css ends */
+
+    /* projects css starts */
+    #projects{
+        padding: 6rem 0 0;
+    }
+    #projects .projects-item{
+        margin: 0 1.5rem 6rem;
+    }
+    /* projects css ends */
+
+    /* price css starts */
+    #price{
+        padding-bottom: 0;
+        background: #353535;
+    }
+    #price .price-item{
+        margin-bottom: 6rem;
+    }
+    /* price css ends */
+
+    /* contact css starts */
+    #contact .massage-form{
+        margin-bottom: 6rem;
+    }
+    /* contact css ends */
+
+    /* why-best css starts */
+    #why-best .common-why-best-images{
+        margin-bottom: 6rem;
+    }
+    #why-best .common-why-best-text{
+        padding: 3rem;
+    }
+    #why-best .why-best-point ol{
+        margin: 2rem 0;
+    }
+    /* why-best css ends */
+
+    /* footer css starts */
+    #footer .footer-main .footer-item{
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    #footer .footer-main .footer-item .f-link .footer-menu {
+        justify-content: center;
+    }
+    #footer .footer-main .footer-item .footer-contact .f-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* footer css ends */
+
+}
+/*===========================
+ extra small device ends
+============================== */
+
+/*===========================
+ small device starts
+============================== */
+
+@media(min-width: 576px) and (max-width: 767px){
+
+    /* html css starts */
+    html{
+        font-size: 45%;
+    }
+    /* html css ends */
+
+    /* section common-header css starts */
+    .common-header h2{
+        text-align: center;
+    }
+    /* section common-header css ends */
+
+    /* navbar css starts */
+    .navbar{
+        background: #4abaee;
+    }
+    .navbar-toggler{
+        border: 1px solid var(--sbrand);
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+    }
+    .navbar-toggler-icon{
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        color: var(--sbrand);
+        font-size: 3rem;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0px 0px 0px .25rem var(--sbrand);
+    }
+    .navbar ul{
+        padding: 3rem 0;
+        text-align: center;
+    }
+    .navbar ul li{
+        margin-bottom: 2rem;
+    }
+    /* navbar css ends */
+
+    /* about css starts */
+    #about .about-text{
+        margin-top: 6rem;
+    }
+    /* about css ends */
+
+    /* skills css starts */
+    #skills{
+        background: #dddd;
+    }
+    #skills .skill-cmn-box{
+        margin-bottom: 6rem;
+        padding: 3rem;
+    }
+    #skills .skill-cmn-img img{
+        box-shadow: 0px 0px 5px 5px var(--sbrand);
+    }
+    #skills .skill-cmn-text{
+        margin-left: 2rem;
+        padding: 4.8rem 2rem;
+        box-shadow: 0px 0px 5px 5px var(--sbrand);
+        border-radius: 1rem;
+    }
+    #skills .skill-cmn-text ol li select{
+        margin: 1.5rem 0;
+    }
+    /* skills css ends */
+
+    /* services css starts */
+    #services{
+        padding: 6rem 0 0;
+    }
+    #services .common-service{
+        margin: 0 0 6rem;
+    }
+    /* services css ends */
+
+    /* our team css starts */
+    #our-team{
+        padding: 6rem 0 0;
+    }
+    #our-team .team-member{
+        margin: 0 1.5rem 6rem;
+    }
+    /* our team css ends */
+
+    /* projects css starts */
+    #projects{
+        padding: 6rem 0 0;
+    }
+    #projects .projects-item{
+        margin: 0 1.5rem 6rem;
+    }
+    /* projects css ends */
+
+    /* price css starts */
+    #price{
+        background: #353535;
+        padding: 6rem 0 0;
+    }
+    #price .price-item{
+        margin: 0 1.5rem 6rem;
+    }
+    /* price css ends */
+
+    /* contact css starts */
+    #contact .massage-form{
+        margin-right: 1rem;
+    }
+    #contact .massage-form form .form-btn{
+        padding: 1.1rem 0;
+    }
+    /* contact css ends */
+
+    /* why-best css starts */
+    #why-best .common-why-best-images{
+        margin-bottom: 6rem;
+    }
+    #why-best .common-why-best-text{
+        padding: 3rem;
+    }
+    #why-best .why-best-point ol{
+        margin: 2rem 1rem;
+    }
+    /* why-best css ends */
+    
+    /* footer css starts */
+    #footer .footer-main .footer-item{
+        margin: 0rem 1rem 6rem;
+    }
+    #footer .footer-main .footer-item .f-link .footer-menu ul {
+        padding-bottom: 0;
+    }
+    #footer .footer-main .footer-item .footer-social{
+        padding-bottom: 6.2rem;
+    }
+    /* footer css ends */
+
+}
+
+/*===========================
+ small device ends
+============================== */
+
+/*===========================
+ medium device starts
+============================== */
+@media(min-width: 768px) and (max-width: 991px){
+
+    /* html css starts */
+    html{
+        font-size: 50%;
+    }
+    /* html css ends */
+
+    /* navbar css starts */
+    .navbar{
+        background: #4abaee;
+    }
+    .navbar-toggler{
+        border: 1px solid var(--sbrand);
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+    }
+    .navbar-toggler-icon{
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        color: var(--sbrand);
+        font-size: 3rem;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0px 0px 0px .25rem var(--sbrand);
+    }
+    .navbar ul{
+        padding: 4rem 0;
+        text-align: center;
+    }
+    .navbar ul li{
+        margin-bottom: 2rem;
+    }
+    /* navbar css ends */
+
+    /* about css starts */
+    #about .about-text{
+        margin-top: 6rem;
+    }
+    /* about css ends */
+
+    /* skills css starts */
+    #skills{
+        background: #dddd;
+    }
+    #skills .skill-cmn-box{
+        margin-bottom: 6rem;
+        padding: 3rem;
+    }
+    #skills .skill-cmn-img img{
+        box-shadow: 0px 0px 5px 5px var(--sbrand);
+    }
+    #skills .skill-cmn-text{
+        margin-left: 2rem;
+        box-shadow: 0px 0px 5px 5px var(--sbrand);
+        border-radius: 1rem;
+        padding: 3.3rem 0;
+    }
+    #skills .skill-cmn-header {
+        box-shadow: 0px 0px 5px 5px var(--sbrand);
+        padding: 1rem 6rem;
+        border-radius: 1rem;
+        margin: 0 2rem;
+    }
+    #skills .skill-cmn-text ol{
+        box-shadow: 0px 0px 5px 5px var(--sbrand);
+        margin: 3rem 2rem 0;
+        border-radius: 1rem;
+        padding: 1rem 6rem !important;
+    }
+    #skills .skill-cmn-text ol li select{
+        margin-bottom: 1rem;
+    }
+    /* skills css ends */
+
+    /* services css starts */
+    #services{
+        padding: 6rem 0 0;
+    }
+    #services .common-service{
+        margin: 0 .4rem 6rem;
+    }
+    /* services css ends */
+
+    /* our team css starts */
+    #our-team{
+        padding: 6rem 0 0;
+    }
+    #our-team .team-member{
+        margin: 0 1.5rem 6rem;
+    }
+    /* our team css ends */
+
+    /* projects css starts */
+    #projects{
+        padding: 6rem 0 3rem;
+    }
+    #projects .projects-item{
+        margin: 0 1.5rem 3rem;
+    }
+    /* projects css ends */
+
+    /* price css starts */
+    #price{
+        padding: 6rem 0 0;
+    }
+    #price .price-item{
+        margin: 0 1.5rem 6rem;
+    }
+    /* price css ends */
+
+    /* contact css starts */
+    #contact .massage-form form .form-btn{
+        padding: 1.1rem 0;
+    }
+    /* contact css ends */
+
+    /* why-best css starts */
+    #why-best .common-why-best-images{
+        margin-bottom: 6rem;
+    }
+    #why-best .common-why-best-text{
+        padding: 3rem;
+    }
+    #why-best .why-best-point ol{
+        margin: 2rem 1.5rem;
+    }
+    /* why-best css ends */
+    
+    /* footer css starts */
+    #footer .footer-main .footer-item{
+        margin: 0rem 1rem 6rem;
+    }
+    #footer .footer-main .footer-item .f-about-me p{
+        padding-bottom: 3.7rem;
+    }
+    #footer .footer-main .footer-item .f-link .footer-menu ul{
+        padding-bottom: 0;
+    }
+    #footer .footer-main .footer-item .f-link .footer-menu ul li{
+        padding-bottom: 1.5rem;
+    }
+    #footer .footer-main .footer-item .footer-social{
+        padding-bottom: 8rem;
+    }
+    /* footer css ends */
+
+}
+/*===========================
+ medium device ends
+============================== */
+
+/*===========================
+ large device starts
+============================== */
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+    /* html css starts */
+    html{
+        font-size: 50%;
+    }
+    /* html css ends */
+
+    /* about css starts */
+    #about .about-text{
+        padding: 1rem;
+        margin-left: 3rem;
+    }
+    #about .about-text .ratings{
+        margin-bottom: 1rem !important;
+    }
+    #about .about-text .about-details p:first-of-type{
+        margin-bottom: 0 !important;
+    }
+    #about .about-text .about-details p:last-of-type{
+        margin-bottom: 1rem !important;
+    }
+    /* about css ends */
+
+    /* skills css starts */
+    #skills{
+        padding: 6rem 0 0;
+    }
+    #skills .skill-cmn-box{
+        margin-bottom: 6rem;
+    }
+    #skills .frontend-box,
+    #skills .backend-box{
+        margin-right: 3rem;
+    }
+    #skills .skill-cmn-text ol li select {
+        margin-bottom: 5rem !important;
+    }
+    /* skills css ends */
+
+    /* service css starts */
+    #services{
+        padding: 6rem 0 0;
+    }
+    #services .common-service {
+        margin-bottom: 6rem;
+    }
+    #services .web-design-service,
+    #services .graphics-design-service{
+        margin-right: 3rem;
+    }
+    /* service css ends */
+
+    /* contact css starts */
+    #contact .massage-form form .form-btn{
+        padding: 1.1rem 0;
+    }
+    /* contact css ends */
+
+    /* why-best css starts */
+    #why-best .common-why-best-text{
+        padding: 1rem 1rem;
+    }
+    #why-best .why-best-point ol{
+        padding: .2rem .5rem !important;
+        margin: .5rem 0;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+    }
+    /* why-best css ends */
+
+    /* footer css starts */
+    #footer .footer-main .footer-item {
+        padding: 2rem 2rem;
+    }
+    #footer .footer-main .footer-item .footer-social{
+        padding-bottom: 2.5rem;
+    }
+    /* footer css ends */
+}
+/*===========================
+ large device ends
+============================== */
+
+/*===========================
+ extra large device ends
+============================== */
+
+@media(min-width: 1200px) and (max-width: 1399px){
+
+    /* html css starts */
+    html{
+        font-size: 55%;
+    }
+    /* html css ends */
+
+    /* about css starts */
+    #about .about-text{
+        padding: 2rem 1rem;
+        margin-left: 3rem;
+    }
+    #about .about-text .ratings{
+        margin-bottom: 2rem !important;
+    }
+    /* about css ends */
+
+    /* skills css starts */
+    #skills{
+        padding: 6rem 0 0;
+    }
+    #skills .skill-cmn-box{
+        margin-bottom: 6rem;
+    }
+    #skills .frontend-box,
+    #skills .backend-box{
+        margin-right: 3rem;
+    }
+    #skills .skill-cmn-text ol li select {
+        margin-bottom: 5rem !important;
+    }
+    /* skills css ends */
+
+    /* service css starts */
+    #services{
+        padding: 6rem 0 0;
+    }
+    #services .common-service {
+        margin-bottom: 6rem;
+    }
+    #services .web-design-service,
+    #services .graphics-design-service{
+        margin-right: 3rem;
+    }
+    /* service css ends */
+
+    /* contact css starts */
+    #contact .massage-form {
+        padding: .7rem 3rem;
+    }
+    /* contact css ends */
+
+    /* why-best css starts */
+    #why-best .common-why-best-text{
+        padding: .9rem 2rem;
+    }
+    #why-best .why-best-point ol{
+        padding: .5rem 1rem !important;
+    }
+    /* why-best css ends */
+
+    /* footer css starts */
+    #footer .footer-main .footer-item {
+        padding: 2rem 3rem;
+    }
+    #footer .footer-main .footer-item .footer-social{
+        padding-bottom: 2.8rem;
+    }
+    #footer .footer-main .footer-item .f-link .footer-menu{
+        padding-bottom: .8rem;
+    }
+    #footer .footer-main .footer-item .f-about-me p{
+        padding-bottom: 1.8rem;
+    }
+    /* footer css ends */
+}
+
+/*===========================
+ extra large device ends
+============================== */
