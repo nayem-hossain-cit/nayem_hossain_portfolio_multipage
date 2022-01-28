@@ -55,208 +55,208 @@ table content ends
 /*======================== 
 contact page css starts
 ======================== */
-#banner{
-    background: url('../images/banner.jpg') no-repeat , center / cover;
-    position: relative;
-    width: 100%;
-    z-index: 1;
+#banner {
+  background: url("../images/banner.jpg") no-repeat, center / cover;
+  position: relative;
+  width: 100%;
+  z-index: 1;
 }
-#banner::after{
-    content: '';
-    width: 100%;
-    background: var(--bgoverlay);
-    position: absolute;
-    inset: 0;
-    z-index: -1;
+#banner::after {
+  content: "";
+  width: 100%;
+  background: var(--bgoverlay);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
 }
-#banner .banner-text{
-    padding: 60rem 0 40rem 1rem;
-    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.6);
+#banner .banner-text {
+  padding: 60rem 0 40rem 1rem;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.6);
 }
-#banner .banner-text h3{
-    color: var(--brand);
+#banner .banner-text h3 {
+  color: var(--brand);
 }
-#banner .banner-text h3 b{
-    color: var(--sbrand);
+#banner .banner-text h3 b {
+  color: var(--sbrand);
 }
-#banner .banner-text p{
-    color: var(--brand);
+#banner .banner-text p {
+  color: var(--brand);
 }
-#banner .banner-text h4{
-    color: var(--sbrand);
+#banner .banner-text h4 {
+  color: var(--sbrand);
 }
-#banner .banner-text h4 span{
-    letter-spacing: .2rem;
+#banner .banner-text h4 span {
+  letter-spacing: 0.2rem;
 }
 /*======================== 
 banner css ends
 ======================== */
-#contact{
-    background: #353535;
-    position: relative;
-    z-index: 1;
-    padding: 6rem 0;
+#contact {
+  background: #353535;
+  position: relative;
+  z-index: 1;
+  padding: 6rem 0;
 }
-#contact::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: var(--overlay);
-    position: absolute;
-    inset: 0;
-    z-index: -1;
+#contact::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--overlay);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
 }
-#contact .contact-header{
-    margin-bottom: 6rem;
+#contact .contact-header {
+  margin-bottom: 6rem;
 }
-#contact .massage-form{
-    background: #353535;
-    box-shadow:0px 0px 5px 5px rgba(203, 56, 226, 0.8);
-    padding: 0 3rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+#contact .massage-form {
+  background: #353535;
+  box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+  padding: 0 3rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
-#contact .massage-form form{
-    padding: 3rem 0;
+#contact .massage-form form {
+  padding: 3rem 0;
 }
-#contact .massage-form form div{
-    padding-bottom: 1rem;
+#contact .massage-form form div {
+  padding-bottom: 1.3rem;
 }
-#contact .massage-form form div label{
-    color: var(--brand);
-    padding-bottom: .5rem;
+#contact .massage-form form div label {
+  color: var(--brand);
+  padding-bottom: 0.5rem;
 }
-#contact .massage-form form div input{
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    border-color: var(--brand);
+#contact .massage-form form div input {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border-color: var(--brand);
 }
 #contact .massage-form form div input:focus,
-#contact .massage-form form div textarea:focus{
-    border-color: red;
+#contact .massage-form form div textarea:focus {
+  border-color: red;
 }
-#contact .massage-form form div textarea{
-    resize: none;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    border-color: var(--brand);
+#contact .massage-form form div textarea {
+  resize: none;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border-color: var(--brand);
 }
-#contact .massage-form form .form-btn button{
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    color: #ddd;
-    background: var(--brand);
-    transition: all linear .4s;
-    -webkit-transition: all linear .4s;
-    -moz-transition: all linear .4s;
-    -ms-transition: all linear .4s;
-    -o-transition: all linear .4s;
-    box-shadow:0px 0px 5px 5px rgba(82, 68, 235, 0.8);
-    display: inline-block;
-    padding: .5rem 5rem;
-    outline: none;
-    border: none;
+#contact .massage-form form .form-btn button {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  color: #ddd;
+  background: var(--brand);
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  box-shadow: 0px 0px 5px 5px rgba(82, 68, 235, 0.8);
+  display: inline-block;
+  padding: 0.5rem 5rem;
+  outline: none;
+  border: none;
 }
-#contact .massage-form form .form-btn button:hover{
-    background: var(--sbrand);
-    box-shadow:0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+#contact .massage-form form .form-btn button:hover {
+  background: var(--sbrand);
+  box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
 }
-#contact .location{
-    background: #212529;
-    box-shadow:0px 0px 5px 5px rgba(203, 56, 226, 0.8);
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+#contact .location {
+  background: #212529;
+  box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
-#contact .location iframe{
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    width: 100%;
-    height: 44rem;
+#contact .location iframe {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  width: 100%;
+  height: 44rem;
 }
 /*======================== 
 contact css ends
 ======================== */
-#projects{
-    padding: 6rem 0;
-    background: #353535;
+#projects {
+  padding: 6rem 0;
+  background: #353535;
 }
-#projects .projects-header{
-    margin-bottom: 6rem;
+#projects .projects-header {
+  margin-bottom: 6rem;
 }
-#projects .projects-item{
-    margin-bottom: 3rem;
-    box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+#projects .projects-item {
+  margin-bottom: 3rem;
+  box-shadow: 0px 0px 5px 5px rgba(203, 56, 226, 0.8);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
-#projects .projects-item .projects-img img{
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+#projects .projects-item .projects-img img {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
-#projects .projects-item .projects-img .projects-img-overlay{
-    background: var(--overlay);
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    transform: scale(.90);
-    visibility: hidden;
-    opacity: 0;
-    transition: all linear .4s;
-    -webkit-transition: all linear .4s;
-    -moz-transition: all linear .4s;
-    -ms-transition: all linear .4s;
-    -o-transition: all linear .4s;
-    -webkit-transform: scale(.90);
-    -moz-transform: scale(.90);
-    -ms-transform: scale(.90);
-    -o-transform: scale(.90);
+#projects .projects-item .projects-img .projects-img-overlay {
+  background: var(--overlay);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  transform: scale(0.9);
+  visibility: hidden;
+  opacity: 0;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
 }
-#projects .projects-item:hover .projects-img .projects-img-overlay{
-    visibility: visible;
-    opacity: 1;
+#projects .projects-item:hover .projects-img .projects-img-overlay {
+  visibility: visible;
+  opacity: 1;
 }
-#projects .projects-item .projects-img .projects-img-overlay a i{
-    width: 8rem;
-    height: 8rem;
-    line-height: 8rem;
-    text-align: center;
-    color: var(--brand);
-    border: 2px solid var(--brand);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+#projects .projects-item .projects-img .projects-img-overlay a i {
+  width: 8rem;
+  height: 8rem;
+  line-height: 8rem;
+  text-align: center;
+  color: var(--brand);
+  border: 2px solid var(--brand);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
-#projects .projects-item:hover .projects-img .projects-img-overlay a i{
-    color: var(--sbrand);
-    border-color: var(--sbrand);
+#projects .projects-item:hover .projects-img .projects-img-overlay a i {
+  color: var(--sbrand);
+  border-color: var(--sbrand);
 }
 /*======================== 
 projects css ends
