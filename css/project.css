@@ -167,7 +167,7 @@ projects css ends
     content: '';
     width: 100%;
     height: 100%;
-    background: var(--overlay);
+    background: var(--bgoverlay);
     position: absolute;
     inset: 0;
     z-index: -1;

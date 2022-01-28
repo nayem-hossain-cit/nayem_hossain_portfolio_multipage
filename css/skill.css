@@ -96,7 +96,7 @@ banner css ends
   background: #212529;
   position: relative;
   z-index: 1;
-  padding: 6rem 0;
+  padding: 6rem 0 0;
 }
 #skills .skills-header {
   margin-bottom: 6rem;
@@ -109,6 +109,7 @@ banner css ends
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+  margin-bottom: 6rem;
 }
 #skills .skill-cmn-box .skillbar {
   padding: 1rem;
