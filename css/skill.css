@@ -94,8 +94,6 @@ banner css ends
 ======================== */
 #skills {
   background: #212529;
-  position: relative;
-  z-index: 1;
   padding: 6rem 0 0;
 }
 #skills .skills-header {
